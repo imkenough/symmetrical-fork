@@ -1,0 +1,30 @@
+{
+  "appId": "com.electronpcstats.app",
+  "productName": "PC Stats Monitor",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "electron/**/*",
+    ".next/**/*",
+    "node_modules/**/*",
+    "public/**/*",
+    "package.json"
+  ],
+  "icon": "electron/icon.svg",
+  "mac": {
+    "category": "public.app-category.utilities"
+  },
+  "win": {
+    "target": [
+      "nsis"
+    ]
+  },
+  "linux": {
+    "target": [
+      "AppImage",
+      "deb"
+    ],
+    "category": "Utility"
+  }
+}
