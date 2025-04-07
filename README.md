@@ -1,4 +1,5 @@
-**issues** - _Right now, the app uses Node.js’s_ `os` _module to gather PC stats in an Electron environment. While this technically works, under the hood it ends up spawning a new PowerShell process for each individual stat. This quickly adds up when the app is running and ironically maxes out system resources, hitting 100% usage. There’s probably a better workaround for this, but I’m currently too busy to look into it._
+## Issues 
+_Right now, the app uses Node.js’s_ `os` _module to gather PC stats in an Electron environment. While this technically works, under the hood it ends up spawning a new PowerShell process for each individual stat. This quickly adds up when the app is running and ironically maxes out system resources, hitting 100% usage. There’s probably a better workaround for this, but I’m currently too busy to look into it._
 
 ### App Screenshot: 
 ![app screenshot](https://github.com/user-attachments/assets/aca166ad-7242-466f-aa9a-6455e2744742)
